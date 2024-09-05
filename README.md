@@ -40,11 +40,10 @@ Clone the Repository:
 
 git clone https://github.com/albysam/usersmanagementFrontend.git
 cd usersmanagementFrontend
-Install Dependencies:
+Install Dependencies
 
 Ensure the API URL in your api.ts matches your backend server URL:
 
-typescript
 Copy code
 // src/api.ts
 import axios from 'axios';
@@ -64,9 +63,5 @@ Get All Users: GET /users
 Get User by ID: GET /users/:id
 Update User: PUT /users/:id
 Delete User: DELETE /users/:id
-Error Handling
-Duplicate email errors during user creation.
-User not found for fetch, update, or delete operations.
-Validation errors if required fields are missing.
-Contact
-For questions, contact me at albypsam001@gmail.com.
+
+Contact For questions, contact me at albypsam001@gmail.com.
