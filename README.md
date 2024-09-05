@@ -12,11 +12,6 @@ Clone the Repository:
 git clone https://github.com/albysam/UsersManagementAPI.git
 cd UsersManagementAPI
 
-Install Dependencies:
-
-Configure Database:
-
-Create a SQL Server Database:
 
 Create a new SQL Server database named UserManagementDB.
 
@@ -79,7 +74,7 @@ Start the Frontend:
 bash
 Copy code
 npm start
-The frontend will be running at http://localhost:3001.
+The frontend will be running at http://localhost:3000.
 
 API Endpoints
 Create User: POST /users
