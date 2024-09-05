@@ -27,18 +27,10 @@ Apply Migrations:
 
 Run the following command to apply the database migrations and set up the schema:
 
-bash
-Copy code
-dotnet ef database update
+
 Start the Backend Server:
 
-Start the ASP.NET Core Web API server using:
-
-bash
-Copy code
-dotnet run
 The backend server will be running at http://localhost:5000.
-
 
 npm run start
 The server will be running at http://localhost:3000.
@@ -46,16 +38,9 @@ The server will be running at http://localhost:3000.
 Frontend Setup
 Clone the Repository:
 
-bash
-Copy code
 git clone https://github.com/albysam/usersmanagementFrontend.git
 cd usersmanagementFrontend
 Install Dependencies:
-
-bash
-Copy code
-npm install
-Configure API URL:
 
 Ensure the API URL in your api.ts matches your backend server URL:
 
@@ -71,9 +56,6 @@ const api = axios.create({
 export default api;
 Start the Frontend:
 
-bash
-Copy code
-npm start
 The frontend will be running at http://localhost:3000.
 
 API Endpoints
