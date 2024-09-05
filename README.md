@@ -12,26 +12,26 @@ Clone the Repository:
 git clone https://github.com/albysam/UsersManagementAPI.git
 cd UsersManagementAPI
 
+Restore NuGet Packages
+dotnet restore
+
+Check Configuration Settings
+appsettings.json: Review appsettings.json or appsettings.Development.json for any configuration that might need adjustments, like database connection strings.
+
+Build the Project:
+dotnet build
+dotnet run
 
 Create a new SQL Server database named UserManagementDB.
-
-Create a .env File:
-
-In the root directory of the backend project, create a file named .env and add the following content, replacing placeholder values with your actual SQL Server details:
-
-env
-Copy code
 # SQL Server Configuration
 SQLSERVER_CONNECTION_STRING=Server=localhost;Database=UserManagementDB;User Id=your_username;Password=your_password;
-Apply Migrations:
 
-Run the following command to apply the database migrations and set up the schema:
-
+Apply Migrations
 
 Start the Backend Server:
 
 The backend server will be running at http://localhost:5000.
-
+npm install
 npm run start
 The server will be running at http://localhost:3000.
 
